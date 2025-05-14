@@ -1,0 +1,59 @@
+
+/* atas */
+
+header{
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 50px;
+}
+
+/* head kiri */
+.head-left{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.brand{
+    display: flex;
+    height: 30px;
+}
+
+/* head tengah */
+
+.head-mid{
+    flex: 1;
+    overflow: hidden;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+/* head kanan */
+
+.head-right{
+    display: flex;
+}
+.profile{
+    padding-left: 15px;
+    padding-right: 5px;
+    display: flex;
+    gap: 5px;
+}
+.profile-image{
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.profile-name{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}

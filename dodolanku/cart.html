@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cart_header.css">
+    <link rel="stylesheet" href="css/cart_main.css">
+</head>
+<body>
+    <header>
+        <div class="head-left">
+            <a href="home.html" class="brand">
+                <img src="image/brand_logo.png" >
+                <img src="image/brand_name.png" >
+            </a>
+        </div>
+        <div class="head-mid"> KERANJANG</div>
+        <div class="head-right">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="image/patrick.png" class="profile-image">
+                </div>
+                <div class="profile-name">EGA PUTRA</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-left">
+            <div class="cart-container">
+                <div class="product-container">
+                    <div class="product-left">
+                        <img src="image/basket.png" class="product-image">
+                    </div>
+                    <div class="product-right">
+                        <div class="product-top">
+                            <div class="product-name">Bola Basket</div>
+                        </div>
+                        <div class="product-mid">
+                            <div class="product-information">no-box</div>
+                        </div>
+                        <div class="product-bot">
+                            <div class="quantity">
+                                <div class="quantity-left">
+                                    <button class="quantity-button">-</button>
+                                    <div class="quantity-count">1</div>
+                                    <button class="quantity-button">+</button>
+                                </div>
+                                <div class="quantity-right">
+                                    <button class="delete-button">
+                                        <img src="image/delete.png" class="delete-image">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-price">80.000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="summary">
+                <div class="summary-top">
+                    <div class="summary-title">Ringkasan Belanja</div>
+                    <div class="summary-inform">
+                        <div class="summary-inform-left">
+                            <div class="item-total">Item ():</div>
+                            <div class="tax-total">Tax:</div>
+                        </div>
+                        <div class="summary-inform-right">
+                            <div class="item-total-price">80.000</div>
+                            <div class="tax-total-price">8.000</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-bot">
+                    <div class="summary-total">
+                        <div class="summary-total-left">Total</div>
+                        <div class="summary-total-right">80.000</div>
+                    </div>
+                    <button class="order-button">Buat Order</button>
+                </div>
+            </div>   
+        </div>
+    </main>
+    <script type="module" src="script/cart.js"></script>
+</body>
+</html>
